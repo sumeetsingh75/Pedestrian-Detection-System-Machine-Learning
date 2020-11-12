@@ -53,7 +53,12 @@ The model is trained for 80k steps. Training graphs are plotted in Tensor Board 
 
 
 # Output of Detection Module
-Implementation of Pedestrian Detection Module, allows user to select the region of interest in the frame. The purpose of selecting a region in the frame is to give meaningful results to the clients. Admin can draw a region of interest in the frame, more likely to be area on the crosswalk only and pedestrian detection will occur only on that area. It will help ignoring the pedestrians where are in the view of camera, but not of interest of the use case. The output of pedestrian detection module will be number of pedestrians detected in the specified area and the detected pedestrians
+Implementation of Pedestrian Detection Module, allows user to select the region of interest in the frame. The purpose of selecting a region in the frame is to give meaningful results to the clients. Admin can draw a region of interest in the frame, more likely to be area on the crosswalk only and pedestrian detection will occur only on that area. It will help ignoring the pedestrians where are in the view of camera, but not of interest of the use case. The output of pedestrian detection module will be number of pedestrians detected in the specified area and the detected pedestrians.
+
+<p float="left">
+  <img src="/images/Picture1.jpg" width="425" />
+  <img src="/images/Picture2.jpg" width="400" /> 
+</p>
 
 ## Note
 
