@@ -50,7 +50,11 @@ Model training is done over Google Colab that offers free GPU services to train 
 
 ## Model Training
 The model is trained for 80k steps. Training graphs are plotted in Tensor Board and carefully monitored during the training process. Total loss is the combination of both localization and classification loss. Due to Transfer Learning, the initial loss dropped significantly from 15 to 3 in just a few steps. Training is stopped when loss function stopped decreasing further.
+Confidence Loss            |  Localization Loss        |  Total Loss
+:-------------------------:|:-------------------------:|:-------------------------:
+![](/images/Picture4.png)  | ![](/images/Picture5.png) | ![](/images/Picture6.png)
 
+x-axis = Steps; y-axis = Loss
 
 # Output of Detection Module
 Implementation of Pedestrian Detection Module, allows user to select the region of interest in the frame. The purpose of selecting a region in the frame is to give meaningful results to the clients. Admin can draw a region of interest in the frame, more likely to be area on the crosswalk only and pedestrian detection will occur only on that area. It will help ignoring the pedestrians where are in the view of camera, but not of interest of the use case. The output of pedestrian detection module will be number of pedestrians detected in the specified area and the detected pedestrians.
