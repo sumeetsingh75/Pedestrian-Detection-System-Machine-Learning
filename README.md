@@ -1,7 +1,7 @@
 # Pedestrian-Detection-System-Machine-Learning
 # Introduction
 
-The project aims at proving a software based solution for pedestrian Detection on roads using Machine Learning Techniques and Computer Vision. Advancement in Autonomous driving also demands more accurate and precise safety features to be in place, for the safety of both drivers and pedestrians. The objective of this project is to enhance the pedestrian safety at crosswalks as crosswalks are main hot spots where most of the accidents occur involving pedestrians.
+The project aims at providing a software based solution for pedestrian Detection on roads using Machine Learning Techniques and Computer Vision. Advancement in Autonomous driving also demands more accurate and precise safety features to be in place, for the safety of both drivers and pedestrians. The objective of this project is to enhance the pedestrian safety at crosswalks as crosswalks are main hot spots where most of the accidents occur involving pedestrians.
 
 The system is expected to take the video feed from a camera at the crosswalk as input. Computer vision and Machine Learning approaches will process the video feed and detect the presence of pedestrians on the crosswalk. In addition, the system will allow the user to defining the region of interest in scenes to speed up the detection process and count number of pedestrians in the scene.
 
